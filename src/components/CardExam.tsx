@@ -14,12 +14,13 @@ import { green } from "@mui/material/colors";
 interface TypeCardExam {
   title: string;
   day?: string;
+  image: string;
 }
 
 const CardExam: React.FC<TypeCardExam> = (props) => {
   return (
     <Grid item>
-      <Card sx={{ maxWidth: 300 }}>
+      <Card sx={{ maxWidth: 300 }} className="p-2">
         <CardHeader
           avatar={
             <Avatar sx={{ bgcolor: green[700] }} aria-label="recipe">
@@ -32,22 +33,15 @@ const CardExam: React.FC<TypeCardExam> = (props) => {
             </IconButton>
           }
           title={props.title}
-          subheader="September 14, 2023"
+          subheader={props.day}
         />
         <CardMedia
           component="img"
           height="194"
-          image="https://mui.com/static/images/cards/paella.jpg"
+          image={props.image}
           alt="Paella dish"
         />
-        <CardContent>
-          <Typography variant="body2" color="text.secondary">
-            This impressive paella is a perfect party dish and a fun meal to
-            cook together with your guests. Add 1 cup of frozen peas along with
-            the mussels, if you like.
-          </Typography>
-        </CardContent>{" "}
-      </Card>{" "}
+      </Card>
     </Grid>
   );
 };

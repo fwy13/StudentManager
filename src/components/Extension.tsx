@@ -8,14 +8,14 @@ const Extension: React.FC = () => {
       <Card sx={{ width: 400 }}>
         <CardHeader 
         avatar={
-          <Avatar sx={{ bgcolor: red[500] }}>Q</Avatar>
+          <Avatar sx={{ bgcolor: red[500] }}>QT</Avatar>
         }
         action={
           <IconButton aria-label="settings">
             <MoreVert />
           </IconButton>
         }
-        title="Huynh Quy"
+        title="Quý Triệu"
         subheader="11B5"
         />
       </Card>

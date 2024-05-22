@@ -10,16 +10,11 @@ import {
 const News: React.FC = () => {
   return (
     <Card sx={{ width: 400 }}>
-      <CardHeader title="New's" />
+      <CardHeader title="Thông báo" />
       <CardContent>
         <Card>
-          <CardHeader subheader="Bug's Fix v1.1" />
-          <CardContent>This is Content</CardContent>
-          <CardActions>
-            <IconButton>
-              <ExpandMore />
-            </IconButton>
-          </CardActions>
+          <CardHeader subheader="Thông báo 19-5-2024" />
+          <CardContent>Điểm học kì đã được cập nhật.</CardContent>
         </Card>
       </CardContent>
     </Card>

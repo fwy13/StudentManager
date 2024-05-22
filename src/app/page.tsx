@@ -8,7 +8,6 @@ export default function Home() {
       <Extension />
       <Chart />
       <News />
-      <footer>Power by WYN2404</footer>
     </main>
   );
 }

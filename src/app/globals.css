@@ -8,12 +8,6 @@
     0px 1px 1px 0px var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, 0.14)),
     0px 1px 3px 0px var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, 0.12));
 }
-
-@media screen and (max-width: 768px) {
-  .notMobile {
-    display: none;
-  }
-}
 .Open {
   transform: translateX(0%);
 }
