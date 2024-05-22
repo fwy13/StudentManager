@@ -1,8 +1,5 @@
 "use client";
 import { Card, CardContent, CardHeader } from "@mui/material";
-
-import Data from "../../DB/Fake_Information.json";
-
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -12,7 +9,6 @@ import {
     LineElement,
 } from "chart.js";
 import { Line } from "react-chartjs-2";
-import { useEffect, useState } from "react";
 
 ChartJS.register(
     CategoryScale,
